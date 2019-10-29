@@ -59,9 +59,9 @@ cc_library {
     generated_sources: ["vendor.mediatek.hardware.radio@2.0_genc++"],
     generated_headers: ["vendor.mediatek.hardware.radio@2.0_genc++_headers"],
     export_generated_headers: ["vendor.mediatek.hardware.radio@2.0_genc++_headers"],
-    vendor_available: true,
+    //vendor_available: true,
     vndk: {
-        enabled: true,
+        enabled: false,
     },
     shared_libs: [
         "libhidlbase",
